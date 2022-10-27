@@ -1,0 +1,17 @@
+{
+  "name": "sequelize-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "seed": "cd db && node seed.js seed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.2.2",
+    "sequelize": "^6.25.3",
+    "sqlite3": "^5.1.2"
+  }
+}
